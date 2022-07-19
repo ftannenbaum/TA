@@ -10,3 +10,6 @@ Name the two sensor axes- for this instance you can name them "noise,temp"
 Name board to be identified on EI "XIAO BLE SENSE"
 
 Once connected, follow EI steps as normal
+
+Troubleshooting:
+If output says invalid API key: run "edge-impulse-data-forwarder --clean" and then redo steps to log in 
