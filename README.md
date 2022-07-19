@@ -7,4 +7,6 @@ Select which project you are connecting the device to
 
 Name the two sensor axes- for this instance you can name them "noise,temp"
 
+Name board to be identified on EI "XIAO BLE SENSE"
+
 Once connected, follow EI steps as normal
