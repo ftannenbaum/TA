@@ -1,3 +1,5 @@
+//Detects frequency but cannot filter our noise yet
+
 #include <PDM.h>
 #include <arduinoFFT.h>
 
