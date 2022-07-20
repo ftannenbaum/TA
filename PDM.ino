@@ -1,4 +1,4 @@
-//Detects frequency but cannot filter our noise yet
+//Detects frequency if there is a pure tone but cannot filter out noise
 
 #include <PDM.h>
 #include <arduinoFFT.h>
