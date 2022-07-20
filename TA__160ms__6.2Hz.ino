@@ -3,7 +3,6 @@
 #include "LSM6DS3.h"
 #include "Wire.h"
 #include "mic.h"
-//#include <KickFiltersRT.h>
 
 
 // Settings
