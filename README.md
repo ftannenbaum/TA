@@ -1,6 +1,7 @@
 # TA
 7/19 Update:
-Upload EI code to board before launching PowerShell
+
+Upload Edge Impulse code to board before launching PowerShell
 
 Launch PowerShell and type "edge-impulse-data-forwarder" (if needed, frequency can be overwritten by typing "edge-impulse-data-forwarder frequency __" with desired frequency in Hz)
 
@@ -14,3 +15,4 @@ Once connected, follow EI steps as normal
 
 Troubleshooting:
 If output says invalid API key: run "edge-impulse-data-forwarder --clean" and then redo steps to log in 
+Note: Frequency needs to be >6Hz for Edge Impulse to run properly. If frequency needs to be reset, type "edge-impulse-data-forwarder --clean" and redo steps to log in. Steps to change frequency can be found in comments at top of EI code
