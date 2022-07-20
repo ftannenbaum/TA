@@ -1,5 +1,8 @@
-//Use code for Edge Impulse
-//Make sure frequency detected on PowerShell and Edge Impulse match with the code- can be changed by changing the delay (use (1000/desired frequency in Hz) to solve for the delay)
+/*Use code for Edge Impulse
+Make sure frequency detected on PowerShell and Edge Impulse match with the code- can be changed by changing the delay 
+(use (1000/desired frequency in Hz) to solve for the delay)
+Frequency should be detected on PowerShell and automatically detected on Edge Impulse. If needed, clear the input (as outlined in the README) to reset the info
+*/
 
 //Libraries
 #include "LSM6DS3.h"
