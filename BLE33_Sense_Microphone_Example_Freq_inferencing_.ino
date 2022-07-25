@@ -1,6 +1,6 @@
-/* Make sure Freq_Test zip library is downloaded. This code will be found under File>>Examples>>Freq_Test_Inferencing>>nano_ble33_sense_microphone
+// NOTE: Make sure Freq_Test zip library is downloaded. This code will be found under File>>Examples>>Freq_Test_Inferencing>>nano_ble33_sense_microphone
 
- * Edge Impulse Arduino examples
+/* Edge Impulse Arduino examples
  * Copyright (c) 2021 EdgeImpulse Inc.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
