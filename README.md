@@ -13,6 +13,6 @@ Note: Frequency needs to be >6Hz for Edge Impulse to run properly. If frequency 
 
 7/25 update:
 
-Used "Xiao_Mic_Freq_UsedforEI" code to gather data on Edge Impulse. Data was only collected for 75% blockage and 0% blockage to make it easier to distinguish as opposed to using 25% and 50%. Accuracy was 55% and the Arduino zip library was downloaded: [ei-freq_test-arduino-1.0.1.zip](https://github.com/ftannenbaum/TA/files/9183898/ei-freq_test-arduino-1.0.1.zip). 
+Used XiaoMic_Freq_UsedforEI.ino code to gather data on Edge Impulse. Data was only collected for 75% blockage and 0% blockage to make it easier to distinguish as opposed to using 25% and 50%. Accuracy was 55% and the Arduino zip library was downloaded: [ei-freq_test-arduino-1.0.1.zip](https://github.com/ftannenbaum/TA/files/9183898/ei-freq_test-arduino-1.0.1.zip). 
 
-Note: XIAO-motion has the library for the left-right and up-down classifications as well as the corresponding written code to call upon the library.
+Note: XIAO-motion.ino has the library for the left-right and up-down classifications as well as the corresponding written code to call upon the library.
