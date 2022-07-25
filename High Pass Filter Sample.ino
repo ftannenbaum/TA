@@ -19,3 +19,6 @@ void loop(){
    
   delay(20);                                //20ms delay
 }
+
+/*Sample code found for how to use high pass filter. This was used on Arduino Leonardo and works by implementing a low-pass filter, then subtracting that resultant data from the original signal to obtain the results found if a high-pass filter were used.
+*/
