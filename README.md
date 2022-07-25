@@ -1,5 +1,5 @@
 # TA
-7/19 Update:
+7/19 Update: Edge Impulse guidance
 
 Upload Edge Impulse code to board before launching PowerShell
 
