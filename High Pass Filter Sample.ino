@@ -1,3 +1,10 @@
+/*Sample code found for how to use high pass filter. 
+This was used on Arduino Leonardo and works by implementing a low-pass filter, 
+then subtracting that resultant data from the original signal to obtain the 
+results found if a high-pass filter were used.
+*/
+
+
 //Global Variables
 int sensorPin = 0;    //pin number to use the ADC
 int sensorValue = 0;  //initialization of sensor variable, equivalent to EMA Y
@@ -20,5 +27,3 @@ void loop(){
   delay(20);                                //20ms delay
 }
 
-/*Sample code found for how to use high pass filter. This was used on Arduino Leonardo and works by implementing a low-pass filter, then subtracting that resultant data from the original signal to obtain the results found if a high-pass filter were used.
-*/
