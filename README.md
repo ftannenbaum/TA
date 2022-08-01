@@ -19,3 +19,16 @@ Note: "XIAO-motion.ino" has the library for the left-right and up-down classific
 
 Looking forward:
 Tomorrow we will try Edge Impulse with the audio recognition feature as opposed to the "something else" sensor type
+
+
+
+8/1 Update:
+Helpful links:
+[How to use arrays] (https://docs.arduino.cc/built-in-examples/control-structures/Arrays)
+
+https://playground.arduino.cc/Main/RunningAverage/ //how to use running average-- need to download library "RunningAverage"
+
+
+https://forum.arduino.cc/t/measuring-respiratory-rate-with-temperature-sensor/702183 //how to use over/under temperature to find respiratory rate
+
+
