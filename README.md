@@ -24,6 +24,7 @@ Tomorrow we will try Edge Impulse with the audio recognition feature as opposed 
 ## 8/1 Update:
 
 Helpful links:
+
 [How to use arrays](https://docs.arduino.cc/built-in-examples/control-structures/Arrays)
 
 [How to use running average](https://playground.arduino.cc/Main/RunningAverage/)
