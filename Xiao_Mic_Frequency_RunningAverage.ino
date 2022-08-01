@@ -1,7 +1,3 @@
-/* This code includes a running average. The last 300 frequencies are used to create a running average which will 
-hopefully in the future be used to calculate respiratory rate and detect obstruction.
-*/
-
 #include <RunningAverage.h>
 #include <PDM.h>
 #include <arduinoFFT.h>
@@ -59,17 +55,18 @@ void loop() {
  
     double peak = FFT.MajorPeak(vReal, SAMPLES, SAMPLING_FREQUENCY);
     
-    Serial.println(peak); 
+  //Serial.println(peak);   //prints all frequency values, even background noise and voices
     
     samplesRead = 0;
 
-    /*if (peak < 1120){ //gets rid of some background noise and voices, prints 0 instead of the actual frequency
+   if (peak < 1120){     //gets rid of some background noise and voices, prints 0 instead of the actual frequency
       Serial.println(0);
     }
     else {
       Serial.println(peak);
     }
-*/
+    
+    
     
     long rn = peak;
     myRA.addValue(rn * 0.001);
@@ -83,8 +80,16 @@ void loop() {
       myRA.clear();
     }
      delay(100);
-   
-  }
+  
+    if (myRA.getAverage() == 0) 
+    {
+      Serial.println ("Alert: Respiratory rate = 0");
+    }
+
+    if (myRA.getAverage() > 1.0)
+    {
+      Serial.println ("Breath");
+    }
 }
 
 void onPDMdata()
