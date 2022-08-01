@@ -1,7 +1,8 @@
-https://docs.arduino.cc/built-in-examples/control-structures/Arrays //how to use arrays
+[How to use arrays](https://docs.arduino.cc/built-in-examples/control-structures/Arrays)
 
 
 https://playground.arduino.cc/Main/RunningAverage/ //how to use running average-- need to download library "RunningAverage"
 
 
 https://forum.arduino.cc/t/measuring-respiratory-rate-with-temperature-sensor/702183 //how to use over/under temperature to find respiratory rate
+
