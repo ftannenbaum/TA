@@ -1,3 +1,7 @@
+/* This code includes a running average. The last 300 frequencies are used to create a running average which will 
+hopefully in the future be used to calculate respiratory rate. 
+*/
+
 #include <RunningAverage.h>
 #include <PDM.h>
 #include <arduinoFFT.h>
