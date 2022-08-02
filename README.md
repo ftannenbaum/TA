@@ -18,7 +18,7 @@ Used "XiaoMic_Freq_UsedforEI.ino" code to gather data on Edge Impulse. Data was 
 Note: "XIAO-motion.ino" has the library for the left-right and up-down classifications as well as the corresponding written code to call upon the library.
 
 
-## 8/1 Update:
+## 8/1-8/2 Update:
 
 Helpful links:
 
@@ -29,5 +29,7 @@ Helpful links:
 [How to use over/under temperature to find respiratory rate](https://forum.arduino.cc/t/measuring-respiratory-rate-with-temperature-sensor/702183)
 
 [How to use temperature rolling average to get breath rate](https://forum.arduino.cc/t/respiration-rate-with-a-temperature-sensor-arduino/943352/4)
+
+[How to use 'millis' for timing on Arduino](https://forum.arduino.cc/t/using-millis-for-timing-a-beginners-guide/483573)
 
 
