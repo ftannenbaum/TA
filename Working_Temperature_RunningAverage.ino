@@ -1,7 +1,3 @@
-/*This is a modified 6-axis IMU code. The microphone and accelerometer data have been commented out so that only the temperature is being used.
-A running average of the temperature in degrees Fahrenheit is being calculated in real-time
-*/
-
 //Libraries
 #include "LSM6DS3.h"
 #include "Wire.h"
@@ -87,7 +83,7 @@ void loop() {
   Serial.print("Running Average: ");
   Serial.println(myRA.getAverage(), 3);
 
-  if (samples == 200) // this line sets the number of samples included in the running average
+  if (samples == 100) // this line sets the number of samples included in the running average
   {
     samples = 0;
     myRA.clear();
