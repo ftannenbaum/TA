@@ -26,8 +26,11 @@ Tomorrow we will try Edge Impulse with the audio recognition feature as opposed 
 Helpful links:
 
 [How to use arrays](https://docs.arduino.cc/built-in-examples/control-structures/Arrays)
+
 [How to use running average](https://playground.arduino.cc/Main/RunningAverage/)
+
 [How to use over/under temperature to find respiratory rate](https://forum.arduino.cc/t/measuring-respiratory-rate-with-temperature-sensor/702183)
+
 [How to use temperature rolling average to get breath rate](https://forum.arduino.cc/t/respiration-rate-with-a-temperature-sensor-arduino/943352/4)
 
 
