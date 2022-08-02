@@ -17,9 +17,6 @@ Used "XiaoMic_Freq_UsedforEI.ino" code to gather data on Edge Impulse. Data was 
 
 Note: "XIAO-motion.ino" has the library for the left-right and up-down classifications as well as the corresponding written code to call upon the library.
 
-Looking forward:
-Tomorrow we will try Edge Impulse with the audio recognition feature as opposed to the "something else" sensor type
-
 
 ## 8/1 Update:
 
