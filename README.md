@@ -18,9 +18,7 @@ Used "XiaoMic_Freq_UsedforEI.ino" code to gather data on Edge Impulse. Data was 
 Note: "XIAO-motion.ino" has the library for the left-right and up-down classifications as well as the corresponding written code to call upon the library.
 
 
-## 8/1-8/2 Update:
-
-Helpful links:
+## Helpful links:
 
 [How to use arrays](https://docs.arduino.cc/built-in-examples/control-structures/Arrays)
 
