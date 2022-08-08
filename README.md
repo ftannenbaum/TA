@@ -32,4 +32,5 @@ Helpful links:
 
 [How to use 'millis' for timing on Arduino](https://forum.arduino.cc/t/using-millis-for-timing-a-beginners-guide/483573)
 
+[Idea on how to write to board from LightBlue](https://compasstech.com.au/arduino/ard2.html)
 
