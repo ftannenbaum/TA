@@ -20,8 +20,11 @@ Note: "XIAO-motion.ino" has the library for the left-right and up-down classific
 
 ## 2/15 Update:
 Thermistor and board information:
+
 https://learn.adafruit.com/thermistor/using-a-thermistor
+
 https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html
+
 https://wiki.seeedstudio.com/XIAO_BLE/
 
 ## Helpful links:
