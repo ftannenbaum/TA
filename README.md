@@ -18,6 +18,12 @@ Used "XiaoMic_Freq_UsedforEI.ino" code to gather data on Edge Impulse. Data was 
 Note: "XIAO-motion.ino" has the library for the left-right and up-down classifications as well as the corresponding written code to call upon the library.
 
 
+## 2/15 Update:
+Thermistor and board information:
+https://learn.adafruit.com/thermistor/using-a-thermistor
+https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html
+https://wiki.seeedstudio.com/XIAO_BLE/
+
 ## Helpful links:
 
 [How to use arrays](https://docs.arduino.cc/built-in-examples/control-structures/Arrays)
@@ -31,4 +37,6 @@ Note: "XIAO-motion.ino" has the library for the left-right and up-down classific
 [How to use 'millis' for timing on Arduino](https://forum.arduino.cc/t/using-millis-for-timing-a-beginners-guide/483573)
 
 [Idea on how to write to board from LightBlue](https://compasstech.com.au/arduino/ard2.html)
+
+
 
