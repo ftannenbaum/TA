@@ -1,3 +1,5 @@
+//**Change delay as needed**
+
 // SPDX-FileCopyrightText: 2011 Limor Fried/ladyada for Adafruit Industries
 
 // SPDX-License-Identifier: MIT
@@ -30,5 +32,5 @@ void loop(void) {
   Serial.print("Thermistor resistance "); 
   Serial.println(reading);
  
-  delay(1000);
+  delay(100);
 }
